@@ -6,6 +6,8 @@ appcompat = "1.7.0"
 material = "1.12.0"
 playServiceAuth = "21.3.0"
 playServiceAuthApiPhone = "18.1.0"
+gradleNexusPlugin = "1.1.0"
+bridge = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -13,8 +15,10 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 playService = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServiceAuth" }
 playServiceAuthApiPhone = { group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "playServiceAuthApiPhone" }
+checkoutPaymentBridge = { group = "com.cashfree.pg", name = "checkout-bridge", version.ref = "bridge" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+gradle-nexus-plugin = { id = "io.github.gradle-nexus.publish-plugin", version.ref = "gradleNexusPlugin" }
 

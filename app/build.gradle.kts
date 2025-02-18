@@ -40,7 +40,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":checkout"))
+    //implementation(project(":checkout"))
+    implementation(libs.checkoutPaymentBridge)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
